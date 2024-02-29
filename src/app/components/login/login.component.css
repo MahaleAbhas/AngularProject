@@ -1,0 +1,32 @@
+.maincon3{
+    /* background-color: #fff; */
+    height: 100vh;
+}
+.maincon3 .intr3{
+    /* background-color: aqua; */
+    height: 100vh;
+    /* margin-top: 30px; */
+}
+
+.maincon3 .intr3 .intr4 .con3{
+    /* background-color: khaki; */
+    margin-top: 35px;
+    margin-left: 55%;
+    text-align: center;
+    
+}
+.maincon3 .intr3 .intr4 .con3 {
+/* background-color: aliceblue; */
+margin-top: 10px;
+padding: 20px;
+}
+.card-registration{
+    margin-top: 150px;
+}
+.fontas{
+    /* background-color: aqua; */
+    margin-top: 10px;
+}
+.fontas li a{
+    margin-left: 100px;
+}

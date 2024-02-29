@@ -1,0 +1,54 @@
+{
+  "students": [
+    {
+      "fname": "navnath",
+      "lname": "satavs",
+      "gender": "male",
+      "email": "navnath@gmail.com",
+      "phoneno": "7894561235",
+      "pwd": "navnath",
+      "subject": "subject2",
+      "id": 2
+    },
+    {
+      "id": 4,
+      "fname": "sairaj",
+      "lname": "bhai",
+      "gender": "male",
+      "email": "suraj123@gmail.com",
+      "phoneno": "123456789",
+      "pwd": "suraj123",
+      "subject": "subject3"
+    },
+    {
+      "id": 6,
+      "fname": "kelvins",
+      "lname": "shem",
+      "gender": "male",
+      "email": "kelvin@gmail.com",
+      "phoneno": "7896541236",
+      "pwd": "54321",
+      "subject": "subject2"
+    },
+    {
+      "fname": "dipanshu",
+      "lname": "jain",
+      "gender": "male",
+      "email": "d@gmail.com",
+      "phoneno": "8976543215",
+      "pwd": "4321",
+      "subject": "subject2",
+      "id": 7
+    },
+    {
+      "fname": "hemant",
+      "lname": "chorge",
+      "gender": "male",
+      "email": "hemant@gmail.com",
+      "phoneno": "4569873214",
+      "pwd": "hemant123",
+      "subject": "subject2",
+      "id": 8
+    }
+  ]
+}

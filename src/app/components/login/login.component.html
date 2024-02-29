@@ -1,0 +1,85 @@
+<section>
+    <!-- Intro -->
+    
+    <div id="intro" class="bg-image vh-100" style="
+          background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('assets/1.jpg');
+          background-size: cover;
+        ">
+        
+      <div class="mask" style="background-color: rgba(250, 182, 162, 0.15);">
+        
+      </div>
+      <div class="container maincon3">
+        <div class="row intr3">
+          <div class="col-12 intr4">
+            <div class="con3">
+                <div class="card shadow-2-strong card-registration" style="border-radius: 15px; background-color: transparent; backdrop-filter: blur(5px); background-color: rgba(255, 255, 255, .15);">
+                    <div class="card-body p-4 p-md-5">
+                      <h3 class="mb-4 pb-2 pb-md-0 mb-md-5" style="color: #5e9693;">Registration Form</h3>
+                      <form [formGroup]="loginForm" (ngSubmit)="login()">                      
+                        <div class="row">
+                          <div class="col-md-12 mb-2 pb-2">
+          
+                            <div class="form-outline">
+                              <input type="email" id="emailAddress" formControlName="email" class="form-control form-control-lg" placeholder="Enter Email" />
+                              
+                            </div>
+          
+                          </div>
+                          <div class="col-md-12 mb-2 pb-2">
+          
+                            <div class="form-outline">
+                              <input type="password" id="password" formControlName="pwd" class="form-control form-control-lg" placeholder="Enter Password" />
+                            </div>
+          
+                          </div>
+                        </div>
+          
+                        
+          
+                        <div class="mt-4 pt-2">
+                          <input class="btn btn-outline-primary btn-lg"  type="submit" value="Submit" />
+                          
+                        </div>
+          
+                      </form>
+                      <ul class="navbar-nav d-flex flex-row fontas" >
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#!">
+    
+                            <i class="fa-brands fa-youtube" style="color: aliceblue;"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#!">
+                            <i class="fab fa-twitter" style="color: aliceblue;"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#!">
+                            <i class="fab fa-instagram" style="color: aliceblue;"></i>
+                            
+                          </a>
+                        </li>
+                      </ul>
+
+                      <div class="mt-4 pt-2">
+                        <p>New User?<a href="register" style="font-size: 20px; text-decoration: none;">Sign up</a></p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- Intro -->
+    
+  </section>
+  <!--Section: Design Block-->
+  <router-outlet></router-outlet>

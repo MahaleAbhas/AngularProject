@@ -1,0 +1,54 @@
+Color of the links BEFORE scroll
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.maincon{
+    /* background-color: #fff; */
+    height: 100%;
+}
+.maincon .intr{
+    /* background-color: aqua; */
+    height: 100%;
+    /* margin-top: 30px; */
+}
+
+.maincon .intr .intr1 .con{
+    /* background-color: khaki; */
+    margin-top: 250px;
+    margin-left: 50%;
+    text-align: center;
+}
+.maincon .intr .intr1 .con h1{
+    /* background-color: khaki; */
+    color: #5e9693;
+    text-shadow: 1px 1px 2px black;
+}
+.maincon .intr .intr1 .con p{
+    color: azure;
+}

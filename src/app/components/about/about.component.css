@@ -1,0 +1,22 @@
+.maincon1{
+    /* background-color: #fff; */
+    height: 100vh;
+}
+.maincon1 .intr1{
+    /* background-color: aqua; */
+    height: 100vh;
+    /* margin-top: 30px; */
+}
+
+.maincon1 .intr1 .intr2 .con1{
+    /* background-color: khaki; */
+    margin-top: 35px;
+    margin-left: 55%;
+    text-align: center;
+    
+}
+.maincon1 .intr1 .intr2 .con1 .co1{
+/* background-color: aliceblue; */
+margin-top: 10px;
+padding: 20px;
+}
